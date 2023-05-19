@@ -37,5 +37,10 @@ namespace pryCataláControlesBasicos
         {
             lblBienvenido.Location = new Point(534);
         }
+
+        private void lblBienvenido_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

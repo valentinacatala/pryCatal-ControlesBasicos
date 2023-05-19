@@ -56,12 +56,13 @@
             // lblBienvenido
             // 
             this.lblBienvenido.AutoSize = true;
-            this.lblBienvenido.Location = new System.Drawing.Point(13, 13);
+            this.lblBienvenido.Location = new System.Drawing.Point(12, 27);
             this.lblBienvenido.Name = "lblBienvenido";
             this.lblBienvenido.Size = new System.Drawing.Size(111, 13);
             this.lblBienvenido.TabIndex = 2;
             this.lblBienvenido.Text = "Bienvenido al Sistema";
             this.lblBienvenido.Visible = false;
+            this.lblBienvenido.Click += new System.EventHandler(this.lblBienvenido_Click);
             this.lblBienvenido.MouseEnter += new System.EventHandler(this.lblBienvenido_MouseEnter);
             // 
             // frmPrincipal
