@@ -19,7 +19,7 @@ namespace pryCataláControlesBasicos
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            lblEscribir.Text = txtEscribir.Text;
+            lblDuplicar.Text=txtEscribir.Text;
         }
 
         private void button1_Click(object sender, EventArgs e)
